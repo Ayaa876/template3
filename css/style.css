@@ -1,0 +1,220 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    /* border: 2px solid black; */
+}
+body{
+    /* background-color: rgb(4, 105, 105); */
+}
+strong:hover{
+    color: white;
+   text-shadow: 1px -5px 20px rgb(121, 252, 7);
+}
+.navbar{
+    background-color: rgba(44, 86, 48, 0.5);
+   
+}
+.collapse-card{
+    background-color:rgba(59, 159, 65, 0.3) ;
+    /* background-color: transparent; */
+    /* border: none; */
+
+}
+.nav-img{
+    margin: -15px 0 -20px -10px;
+}
+.collapse-card{
+    box-shadow: 0 2px 25px 0 rgba(97, 226, 131, 0.3);
+}
+.card-header-col{
+    background-color: rgba(141, 229, 141, 0.3);
+}
+.card-header-col:hover{
+    background-color: rgba(224, 238, 224, 0.3);
+}
+.btn-link{
+    color: rgb(4, 87, 34);
+}
+.btn-link:hover{
+    color: rgb(40, 4, 90);
+    text-decoration: none;
+}
+.btn-link::after{
+    content: '\2191';
+    width: 30px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+    right: 15px;
+    top:11px;
+    position: absolute;
+}
+.btn-link.collapsed::after{
+    content:'\2193';
+}
+.btn-link::before{
+    content:'';
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    z-index: 1;
+    transform: rotate(45deg);
+    left:30px;
+    top:49px;
+    border-top: 25px solid transparent;
+    border-right: 25px solid rgba(141, 229, 141, 0.3);
+}
+.blue{
+    color: rgb(18, 232, 232);
+    font-size: 18px;
+}
+.green{
+    color: rgb(157, 240, 157);
+}
+.red{
+    color:rgb(249, 148, 148);
+}
+.img1{
+    width: 100%;
+    background-image: url('../imgs/690910c74066c00ce54bb2c4f33905f0.jpg')  ;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 280px;
+}
+.img2{
+    width: 100%;
+    background-image: url('../imgs/3f5c576bf6002ebb0513f5b650df291d.jpg')  ;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 280px;
+}
+
+.cards-link{
+    text-decoration: underline;
+    color: green;
+}
+.cards-link:hover{
+    color: rgb(10, 59, 25);
+}
+
+@media (min-width:768px){
+    .container {
+        width: 750px;
+    }
+}
+@media (min-width:992px){
+    .container{
+        width: 970px;
+    }
+}
+@media (min-width:1200px){
+    .container{
+        width: 1170px;
+    }
+}
+
+
+.carousel-caption{
+    background-color: (100%,100%,100%,50%);
+    backdrop-filter: blur(30px);
+    width: 50%;
+    height: 90vh;
+    top:0;
+    left:40px;
+    
+}
+.cap1{
+    font-size: 9vw;
+    background-image: url(../imgs/1bc7284e058527db2a86db9219499c0e.jpg);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.cap-a{
+    font-size:9vw;
+    background-image: url(../imgs/b8627244ad36c7f495fe4d78e5078fe6.jpg);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.cap2{
+    /* padding-left: 95%; */
+}
+.cap3{
+    font-size: 8vw;
+}
+.carousel-p1{
+    color: rgb(165, 234, 165);
+}
+.carousel-p2{
+    color: rgb(205, 205, 64);
+}
+#footer-area{
+    padding:90px 0 60px 0;
+    background-color: rgb(4, 68, 4);
+    color: whitesmoke;
+}
+.footer-social{
+    margin-top:20px;
+}
+.single-footer h3{
+    font-weight: 500;
+    margin-bottom: 25px;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.link-area li {
+    padding:5px 5px 5px 0;
+    list-style:none;
+}
+.link-area li a{
+    text-transform: capitalize;
+    color:#ddd;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.link-area li a i{
+    margin-right: 10px;
+    color:#ddd;
+}
+.link-area{
+    padding: 0;
+}
+.footer-social li a i{
+    color: #fff;
+    padding: 8px;
+}
+.btn-card{
+    background-color: #e6f9c9;
+}
+.btn-card:hover{
+    background-color: #c1e09393;
+}
+.mini-card{
+    background-color: #eaf8dd;
+}
+.icn{
+    font-size:19px;
+}
+.gallary{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 45% 45%;
+    grid-gap: 10px 10px;
+    width: 230px;
+    height: 230px;
+}
+.gallary-img{
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+
+  
